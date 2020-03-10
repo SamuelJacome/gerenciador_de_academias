@@ -7,7 +7,7 @@ const routes = require("./routes")
 const server = express()
 
 
-
+server.use(express.urlencoded({ extended: true}))
 server.use(express.static('public'))
 server.use(routes)
 
@@ -18,6 +18,7 @@ nunjucks.configure("views", {
     autoescape: false,
     noCache: true
 })
+
 server.get("/", function(req, res){
     const about = {
         avata_url: "https://avatars0.githubusercontent.com/u/39867221?s=400&v=4",
