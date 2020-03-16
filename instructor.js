@@ -29,7 +29,7 @@ exports.post = function(req, res){
     }) 
 
 
-    const{avatar_url, birth, created_at, id, services, gender} = req.body
+    const{ avatar_url, birth, created_at, id, services, gender } = req.body
 
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function(err){
         if (err) return res.send("write file error!")
