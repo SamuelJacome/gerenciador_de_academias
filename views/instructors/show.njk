@@ -1,0 +1,51 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+    <div class="card">
+        <section class="avatar" style="background: url({{ instructor.avatar_url}}) no-repeat center center / cover"></section>
+        <section class="details">
+
+            <h3 class="">
+                Detalhes
+            </h3>
+
+            <div class="item">
+                <div class="">Instrutor</div>
+                <div class="">{{ instructor.name}}</div>
+            </div>
+
+            <div class="item">
+                <div class="">Idade</div>
+                <div class="">{{ instructor.birth}}</div>
+            </div>
+
+            <div class="item">
+                <div class="">Sexo</div>
+                <div >{{ "Masculino" if instructor.gender == "M" else "Feminino"}}</div>
+            </div>
+
+            <div class="item">
+                <div class="">Acompanhamento</div>
+                <div class="">
+                    {% for service in instructor.services%}
+                    <span class="">
+                        {{ service }}
+                    </span>
+                    {% endfor %}
+
+                    <span class="">
+                        Crossfit
+                    </span>
+
+                    <div class="item">
+                        <div class="">Cadastrador desde:</div>
+                        <div class="">{{ instructor.created_at }}</div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+
+{% endblock content %}

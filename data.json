@@ -1,3 +1,40 @@
 {
-  "instructors": [] 
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://www.google.com/",
+      "name": "Daniel",
+      "birth": 7258291200000,
+      "gender": "M",
+      "services": "Crossfit",
+      "created_at": 1584391292424
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://www.google.com/",
+      "name": "Aline",
+      "birth": 1599004800000,
+      "gender": "F",
+      "services": "cross, musculacao, fitness ",
+      "created_at": 1584553670038
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://www.google.com/",
+      "name": "Samuel",
+      "birth": 1599004800000,
+      "gender": "M",
+      "services": "cross, musculacao, fitness ",
+      "created_at": 1584553670038
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://www.google.com/",
+      "name": "Smau",
+      "birth": 878342400000,
+      "gender": "M",
+      "services": "Academia",
+      "created_at": 1584555246857
+    }
+  ]
 }
