@@ -1,6 +1,3 @@
-//req = request
-//res = response, send é um metodo do res.
-
 const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require("./routes")
@@ -31,8 +28,6 @@ server.get("/", function(req, res){
     }
     return res.render("about", {about: about})
 } )
-
-
 
 server.listen(5000, function(){
     console.log("server is running")

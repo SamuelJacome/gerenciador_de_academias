@@ -24,11 +24,6 @@ exports.show = function(req, res){
 
     
 }
-
-
-
-
-
 //Create
 
 exports.post = function(req, res){
