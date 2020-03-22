@@ -2,66 +2,12 @@
   "instructors": [
     {
       "id": 1,
-      "avatar_url": "https://www.google.com/",
-      "name": "Daniel",
-      "birth": 7258291200000,
-      "gender": "M",
-      "services": "Crossfit",
-      "created_at": 1584391292424
-    },
-    {
-      "id": 2,
-      "avatar_url": "https://www.google.com/",
-      "name": "Aline",
-      "birth": 1599004800000,
-      "gender": "F",
-      "services": "cross, musculacao, fitness ",
-      "created_at": 1584553670038
-    },
-    {
-      "id": 3,
-      "avatar_url": "https://www.google.com/",
-      "name": "Samuel",
-      "birth": 1599004800000,
-      "gender": "M",
-      "services": "cross, musculacao, fitness ",
-      "created_at": 1584553670038
-    },
-    {
-      "id": 4,
-      "avatar_url": "https://www.google.com/",
-      "name": "Smau",
-      "birth": 878342400000,
-      "gender": "M",
-      "services": "Academia",
-      "created_at": 1584555246857
-    },
-    {
-      "id": 5,
-      "avatar_url": "https://www.google.com/",
-      "name": "Teste Oficial",
-      "birth": 949449600000,
-      "gender": "M",
-      "services": "Academia",
-      "created_at": 1584710179919
-    },
-    {
-      "id": 6,
-      "avatar_url": "https://www.google.com/",
-      "name": "Flavio",
+      "avatar_url": "https://source.unsplash.com/collection/9374406",
+      "name": "Samuel Victor Costa Jácome",
       "birth": 867888000000,
       "gender": "M",
-      "services": "dd",
-      "created_at": 1584712029056
-    },
-    {
-      "id": 7,
-      "avatar_url": "https://www.google.com/",
-      "name": "aline",
-      "birth": 853459200000,
-      "gender": "F",
-      "services": "Musculação, natação",
-      "created_at": 1584713338247
+      "services": "Musculação, Natação",
+      "created_at": 1584911184046
     }
   ]
 }

@@ -10,8 +10,39 @@
                 Novo Instrutor
             </h3>
 
-            {% include 'instructors/field.njk' %}
-           
+            <div class="item">
+                <div class="">Avatar URL</div>
+                <div class="">
+                    <input type="text" name="avatar_url" placeholder="http://">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="">Instrutor</div>
+                <div class="">
+                    <input type="text" name="name" placeholder="Nome do Instrutor">
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="">Data de nascimento</div>
+                <div class=""><input type="date" name="birth"></div>
+            </div>
+
+            <div class="item">
+                <div class="">Sexo</div>
+                <span class=""><input type="radio" name="gender" value="M">Masculino</span>
+                <span class=""><input type="radio" name="gender" value="F">Feminino</span>
+            </div>
+
+            <div class="item">
+                <div class="">
+                    Área de atuação</div>
+                <div class=""><input type="text" name="services" placeholder="Separa os serviços prestados por vírgula"></div>
+            </div>
+
+            <button type="submit">Salvar</button>
+
         </section>
     </form>
 
