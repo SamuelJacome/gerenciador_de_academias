@@ -19,8 +19,6 @@ routes.get('/instructors/:id/edit', instructors.edit)
 
 routes.post("/instructors", instructors.post )
 
-routes.get("/members", function(req, res){
-    return res.send("members")
-} )
+routes.get("/members", (req, res) => { res.send("members")})
 
 module.exports = routes
