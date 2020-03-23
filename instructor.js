@@ -57,7 +57,7 @@ exports.edit = function(req, res){
 
 //Show
 
-exports.show = function(req, res){
+exports.show = (req, res) => {
     const{ id } = req.params
 
     const foundInstructor = data.instructors.find(function(instructor){
@@ -70,7 +70,6 @@ exports.show = function(req, res){
     const instructor ={
         ...foundInstructor,
         age: age(foundInstructor.birth),
-    
         services: foundInstructor.services.split(","),
         created_at: new Intl.DateTimeFormat("pt-BR").format(foundInstructor.created_at),
     }
