@@ -1,5 +1,5 @@
 # Gym-manager
 
-Utilizando Nodejs, uma templete engine Nunjucks
+Utilizando Nodejs, uma template engine Nunjucks
 
 
